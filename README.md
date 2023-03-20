@@ -1,7 +1,7 @@
 # Recommendations Engines with IBM
 This project was designed to analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles.
 
-##  Installations
+##  Infrastructure
 This project requires Python 3.x and the following Python libraries installed:
 - [Nltk](https://www.nltk.org/)
 - [Pandas](http://pandas.pydata.org)
@@ -9,17 +9,16 @@ This project requires Python 3.x and the following Python libraries installed:
 - [Seaborn](https://seaborn.pydata.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 
-## Summary:
-The project contains the following tasks:
-- Exploratory Data Analysis: This part is for data exploration.
-- Rank Based Recommendations: To get started in building recommendations, I first find the most popular articles based on the most interactions. These are then the articles we might recommend to new users (or anyone depending on what we know about them).
-- User-User Based Collaborative Filtering: In order to build better recommendations for the users of IBM's platform, I look at users that are similar in terms of the items they have interacted with. These items could then be recommended to similar users.
-- Content Based Recommendations:  Using  NLP skills, I developed a content-based recommendation system.
-- Matrix Factorization: Finally, I completed a machine learning approach to building recommendations. Using the user-item interactions, I built out a matrix decomposition. Using the decomposition, I got an idea of how well I can predict new articles an individual might interact with .    
-
+## Overview:
+The following tasks are included in the project:
+- Exploratory Data Analysis: This section is for exploring data.
+- Rank Based Recommendations: To begin constructing recommendations, I look for the most popular articles with the most interactions. These are the articles we might suggest to new users (or anyone depending on what we know about them).
+- User-User Based Collaborative Filtering: In order to develop better suggestions for IBM's platform users, I look at users who have engaged with comparable products. These goods could then be suggested to other users.
+- Content-Based Recommendations: I created a content-based recommendation system using NLP capabilities.
+- Matrix Factorization: Eventually, I finished a machine learning technique to recommendation construction. Making use of user-item interactions, I created a matrix decomposition. Using the decomposition, I was able to estimate how effectively I can predict new articles that a person could interact with.
 ## Data
 - user-item-interactions.csv: file contains user interaction.
 - articles_community.csv: file contains articles description.  
 
 ## Acknowledgments
-I would like to thank [Udacity](https://eu.udacity.com/) for this amazing project, and [IBM](https://dataplatform.cloud.ibm.com/) for providing the data.
+I'd like to thank [Udacity](https://eu.udacity.com/) for this fantastic project and [IBM](https://dataplatform.cloud.ibm.com/) for the data.
